@@ -16,6 +16,7 @@ plt.scatter(df["daily_screen_time_min"], df["mood_score"])
 plt.xlabel("Daily Screen Time (minutes)")
 plt.ylabel("Mood Score")
 plt.title("Screen Time vs Mood")
+plt.savefig("screen_time_vs_mood.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # ---- Analysis 2: Sleep vs Mood ----
@@ -24,6 +25,7 @@ plt.scatter(df["sleep_hours"], df["mood_score"])
 plt.xlabel("Sleep Hours")
 plt.ylabel("Mood Score")
 plt.title("Sleep vs Mood")
+plt.savefig("sleep_vs_mood.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # ---- Correlation Analysis ----
@@ -46,6 +48,7 @@ plt.title("Correlation Matrix Heatmap")
 plt.xticks(range(len(corr_matrix.columns)), corr_matrix.columns, rotation=45)
 plt.yticks(range(len(corr_matrix.columns)), corr_matrix.columns)
 plt.tight_layout()
+plt.savefig("correlation_heatmap.png", dpi=300, bbox_inches="tight")
 plt.show()
 
 # ---- Simple Mood Risk Classification ----
