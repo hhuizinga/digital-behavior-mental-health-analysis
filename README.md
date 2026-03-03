@@ -52,3 +52,14 @@ Understanding how everyday digital behaviors relate to mental health can help in
 - user-centered mental health technology  
 
 This project demonstrates foundational skills in behavioral data analysis using Python.
+
+## 📊 Visualizations
+
+### Screen Time vs Mood
+![Screen Time vs Mood](screen_time_vs_mood.png)
+
+### Sleep vs Mood
+![Sleep vs Mood](sleep_vs_mood.png)
+
+### Correlation Matrix Heatmap
+![Correlation Heatmap](correlation_heatmap.png)
