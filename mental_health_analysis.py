@@ -26,8 +26,6 @@ plt.ylabel("Mood Score")
 plt.title("Sleep vs Mood")
 plt.show()
 
-print("Analysis complete.")
-
 # ---- Correlation Analysis ----
 print("\nCorrelation Matrix:")
 corr_matrix = df[[
