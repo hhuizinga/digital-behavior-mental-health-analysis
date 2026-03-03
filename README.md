@@ -63,3 +63,17 @@ This project demonstrates foundational skills in behavioral data analysis using 
 
 ### Correlation Matrix Heatmap
 ![Correlation Heatmap](correlation_heatmap.png)
+
+## 🔍 Key Insights
+
+- Screen time shows a weak relationship with mood in this dataset.
+- Sleep hours appear slightly positively associated with mood scores.
+- Anxiety level shows a negative relationship with mood.
+- The logistic regression model achieved ~58% accuracy, suggesting limited predictive power with the current features.
+
+## 🧠 Future Improvements
+
+- Add more behavioral features
+- Try advanced models (Random Forest, XGBoost)
+- Perform feature engineering
+- Increase dataset size
