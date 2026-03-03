@@ -24,3 +24,25 @@ plt.title("Sleep vs Mood")
 plt.show()
 
 print("Analysis complete.")
+
+# ---- Correlation Analysis ----
+print("\nCorrelation Matrix:")
+corr_matrix = df[[
+    "daily_screen_time_min",
+    "sleep_hours",
+    "mood_score",
+    "anxiety_level",
+    "focus_score"
+]].corr()
+
+print(corr_matrix)
+
+# Optional: visualize correlation heatmap
+plt.figure()
+plt.imshow(corr_matrix)
+plt.colorbar()
+plt.title("Correlation Matrix Heatmap")
+plt.xticks(range(len(corr_matrix.columns)), corr_matrix.columns, rotation=45)
+plt.yticks(range(len(corr_matrix.columns)), corr_matrix.columns)
+plt.tight_layout()
+plt.show()
